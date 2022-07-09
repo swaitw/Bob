@@ -2,12 +2,8 @@
   <img src="https://gh.wwang.de/ripperhe/oss/master/2019/1222/bob-logo.png" width=240 />
 </p>
 <p align="center">
-	<a href="https://github.com/ripperhe/Bob/releases/latest"><img src="https://img.shields.io/github/v/release/ripperhe/Bob?logo=github" alt="GitHub release" /></a>
-	<a href="https://ripperhe.gitee.io/bob/"><img src="https://img.shields.io/badge/docsify-%E8%AF%A6%E7%BB%86%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3-brightgreen" alt="Document" /></a>
-  <a href="https://ripperhe.gitee.io/bob/#/general/contact"><img src="https://img.shields.io/badge/QQ%20%E7%BE%A4-459542798-red" alt="QQ群" /></a>
-</p>
-<p align="center">
-  <strong>Chinese</strong> | <a href="https://github.com/ripperhe/Bob/blob/master/README.en.md">English</a>
+	<a href="https://bobtranslate.com"><img src="https://img.shields.io/badge/%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-bobtranslate.com-brightgreen?logo=Safari" alt="Website" /></a>
+  <a href="https://bobtranslate.com/general/contact.html"><img src="https://img.shields.io/badge/QQ%20%E7%BE%A4-459542798-blue?logo=Tencent%20QQ" alt="QQ 群" /></a>
 </p>
 
 # Bob
@@ -37,41 +33,28 @@ OCR 功能：
 - [x] 自动复制
 - [x] 智能分段
 
-## 如何安装
+## 安装
 
-### 系统要求
+系统要求 **macOS 10.13** 以上，从 Mac App Store 安装。
 
-macOS 10.13 及以上
-
-### Homebrew Cask 安装
-
-```bash
-brew install --cask bob
-```
-
-### 手动安装
-
-| 渠道 | 建议 | 下载 |
-| --- | --- | --- |
-| 从 [GitHub release](https://github.com/ripperhe/Bob/releases) 下载 | 国外从这里下载更快 | [点此下载 ⬇](https://github.com/ripperhe/Bob/releases/latest/download/Bob.zip) |
-| 从 [Gitee release](https://gitee.com/ripperhe/Bob/releases) 下载 | 国内从这里下载更快 | [点此下载 ⬇](https://gitee.com/ripperhe/Bob/attach_files/1066760/download/Bob.zip) |
-
-下载完成之后，解压并拖拽到**应用程序**文件夹即可
+[![Download on the Mac App Store](https://cdn.wwang.de/r/2022/0626/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/cn/app/id1630034110#?platform=mac)
 
 ## 使用方法
 
-详细使用方法请直接查看文档 👉 [点此跳转文档](https://ripperhe.gitee.io/bob/)
+详细使用方法请直接查看文档 [👉 点此跳转文档](https://bobtranslate.com)
 
-> 文档可能有缓存，最好强制刷新下网页 （Chrome 快捷键是 `Command + Shift + R`）
+Bob 是一个菜单栏软件，启动之后，菜单栏会出现一个图标，点击菜单选项即可触发相应的功能，如下所示：
+
+<img src="https://cdn.wwang.de/r/2022/0627/status_item.jpg" alt="statesitem.jpg" width=548>
 
 ### 翻译功能
 
 | 方式 | 描述 | 预览 |
 | :---: | :---: | :---: |
-| 划词翻译 | 选中需要翻译的文本之后，按下划词翻译快捷键即可（默认 `⌥ + D`） | ![划词翻译-句子](https://gh.wwang.de/ripperhe/oss/master/2022/0508/translate_selection.gif) |
-| 截图翻译 | 按下截图翻译快捷键（默认 `⌥ + S`），截取需要翻译的区域 | ![截图翻译-句子](https://gh.wwang.de/ripperhe/oss/master/2022/0508/translate_snip.gif) |
-| 输入翻译| 按下输入翻译快捷键（默认 `⌥ + A`），输入需要翻译的文本，`Enter` 键翻译 | ![输入翻译-单词](https://gh.wwang.de/ripperhe/oss/master/2022/0508/translate_input.gif) |
-| PopClip 调用 | 选中需要翻译的文本之后，点击 [PopClip](https://pilotmoon.com/popclip/) 插件图标即可，详情见 [PopClip 调用](/general/integration/popclip) | ![插件翻译-句子](https://gh.wwang.de/ripperhe/oss/master/2022/0508/translate_popclip.gif) |
+| 划词翻译 | 选中需要翻译的文本之后，按下划词翻译快捷键即可（默认 `⌥ + D`） | ![划词翻译-句子](https://cdn.wwang.de/r/2022/0508/translate_selection.gif) |
+| 截图翻译 | 按下截图翻译快捷键（默认 `⌥ + S`），截取需要翻译的区域 | ![截图翻译-句子](https://cdn.wwang.de/r/2022/0508/translate_snip.gif) |
+| 输入翻译| 按下输入翻译快捷键（默认 `⌥ + A`），输入需要翻译的文本，`Enter` 键翻译 | ![输入翻译-单词](https://cdn.wwang.de/r/2022/0508/translate_input.gif) |
+| PopClip 调用 | 选中需要翻译的文本之后，点击 [PopClip](https://pilotmoon.com/popclip) 插件图标即可，详情见 [PopClip 调用](https://bobtranslate.com/guide/integration/popclip.html) | ![插件翻译-句子](https://cdn.wwang.de/r/2022/0508/translate_popclip.gif) |
 
 ### OCR 功能
 
@@ -102,9 +85,9 @@ brew install --cask bob
 ## 感谢
 
 * 感谢 [@isee15](https://github.com/isee15/Capture-Screen-For-Multi-Screens-On-Mac) 提供最初版本截图功能的思路
-* 感谢 [@可口可乐](https://github.com/wwk7225) 长期帮忙解决用户反馈
+* 感谢 [@可口可乐](https://github.com/wakewon) 长期帮忙解决用户反馈
 * 感谢 [@ix4n33](https://github.com/IsaacXen) 不定期提供技术支持
-* 感谢朋友们的赞赏 [赞赏列表](https://ripperhe.gitee.io/bob/#/general/reward)
+* 感谢朋友们的赞赏 [赞赏列表](https://bobtranslate.com/general/reward.html)
 * 感谢作者们发文支持 Bob（时间倒序）
     * @奇客派：[macOS 翻译工具 Bob 大更新：支持更多翻译服务，增强 OCR 功能](https://sspai.com/post/62721)
     * @鹿額：[截图/划词/输入都能查，快捷高效的 macOS 翻译工具: Bob](https://sspai.com/post/58249)
@@ -117,8 +100,8 @@ brew install --cask bob
 
 ## 最后
 
-目前本仓库主要用于部署使用教程和提供反馈渠道。
+Bob 不是开源软件，目前本仓库主要用于提供反馈渠道。
 
 有任何问题或建议请优先在 GitHub [提 issue](https://github.com/ripperhe/Bob/issues)，回复不一定及时，我有空闲时间一定会来处理的。
 
-另外，非常欢迎 [加入 QQ 群](https://ripperhe.gitee.io/bob/#/general/contact) 讨论。
+另外，非常欢迎 [加入 QQ 群](https://bobtranslate.com/general/contact.html) 讨论。
