@@ -35,9 +35,13 @@ OCR 功能：
 
 ## 安装
 
-系统要求 **macOS 10.13** 以上，从 Mac App Store 安装。
+系统要求 **macOS 10.13** 以上。
+
+Bob 1.0.0 版本开始，正式发布到 Mac App Store，从 App Store 安装即可。
 
 [![Download on the Mac App Store](https://cdn.wwang.de/r/2022/0626/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/cn/app/id1630034110#?platform=mac)
+
+如果您是 Bob 1.0.0 以下版本的老用户（不包括 1.0.0），请查看 [这篇文档](https://bobtranslate.com/blog/2022-07-03-v1-coming.html)。
 
 ## 使用方法
 
