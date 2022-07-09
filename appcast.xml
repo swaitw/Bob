@@ -3,6 +3,18 @@
   <channel>
     <title>Bob</title>
     <item>
+      <title>0.10.3</title>
+      <pubDate>周六, 09 7月 2022 20:30:21 +0800</pubDate>
+      <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+      <enclosure url="https://gitee.com/ripperhe/Bob/attach_files/1122276/download/Bob.zip" sparkle:version="33" sparkle:shortVersionString="0.10.3" length="14565017" type="application/octet-stream" sparkle:edSignature="56yy8Z06ibEQCAwlA/BvpABs60M1HNDwLvlwe0FrIpU+50XZLVCSNVZ5ITbyYx8pX6nBCDNQp66ugMhe19LMAw=="/>
+      <description><![CDATA[
+      <ul>
+      <li>将 App 内部所有链接指向新的社区版官网</li>
+      <li>Bob 已发布到 Mac App Store，目前首发限时 6 折优惠，详情请查看 <a href="https://bobtranslate.com/blog/2022-07-03-v1-coming.html">这篇文章</a></li>
+      </ul>
+      ]]></description>
+    </item>
+    <item>
       <title>0.10.2</title>
       <pubDate>周四, 19 5月 2022 18:48:44 +0800</pubDate>
       <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
