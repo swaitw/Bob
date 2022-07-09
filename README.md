@@ -102,6 +102,4 @@ Bob 是一个菜单栏软件，启动之后，菜单栏会出现一个图标，�
 
 Bob 不是开源软件，目前本仓库主要用于提供反馈渠道。
 
-有任何问题或建议请优先在 GitHub [提 issue](https://github.com/ripperhe/Bob/issues)，回复不一定及时，我有空闲时间一定会来处理的。
-
-另外，非常欢迎 [加入 QQ 群](https://bobtranslate.com/general/contact.html) 讨论。
+[👉 点此查看联系方式](https://bobtranslate.com/general/contact.html)
