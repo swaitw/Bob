@@ -23,28 +23,30 @@
       // ************************* Configuration *************************
       // https://docsify.js.org/#/zh-cn/configuration
       // --> 首页 「README.md」
-      homepage: 'https://gh.wwang.de/ripperhe/Bob/master/README.md',
+      homepage: 'README.md',
       // --> 封面 「_coverpage.md」
       coverpage: false,
       // --> 侧边栏 [_sidebar.md]
-      loadSidebar: true,
+      loadSidebar: false,
       // 说实话，没搞懂
       maxLevel: 4,
       // 设置侧边栏中，当前文章的最大目录层级；不设置，则不会显示当前文章目录
       subMaxLevel: 2,
       // --> 导航栏 [_navbar.md]
-      loadNavbar: true,
+      loadNavbar: false,
       // 小屏设备下合并导航栏到侧边栏
       mergeNavbar: true,
       // --> 404页面 「_404.md」
-      notFoundPage: true,
+      notFoundPage: "README.md",
+      // 隐藏侧边栏
+      hideSidebar: true,
 
       // 网址logo
       // logo: '/_media/icon.svg',
       // 文档标题，显示在侧边栏顶部
-      name: 'Bob 0.10.2',
+      name: 'Bob',
       // 仓库地址（设置之后，会在页面右上角渲染一个 GitHub Corner 挂件）
-      repo: 'ripperhe/Bob',
+      // repo: 'ripperhe/Bob',
       // 页面切换之后，自动跳转到顶部
       auto2top: true,
       // 格式化
@@ -61,17 +63,10 @@
         // Edit On Github
         function (hook, vm) {
           hook.beforeEach(function (html) {
-            var url = 'https://github.com/ripperhe/Bob/blob/master/docs/' + vm.route.file
-            if (vm.route.file === 'https://gh.wwang.de/ripperhe/Bob/master/README.md') {
-              url = 'https://github.com/ripperhe/Bob/blob/master/README.md'
-            }
-            var chatHtml = '[:rocket: 点击此处联系我](general/contact.md)'
-            var editHtml = '[:memo: 在 Github 上编辑](' + url + ')'
+            var chatHtml = '[:rocket: 点击此处联系我](https://bobtranslate.com/general/contact.html)'
             return html
               + '\n\n----\n\n'
               + chatHtml
-              + '\n\n'
-              + editHtml
           })
         },
       ]
