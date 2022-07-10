@@ -10,7 +10,7 @@ Bob 1.0.0 以下的版本（不包括 1.0.0，例如 0.10.x 等版本）发布�
 
 商店版需要付费，采用内购终身买断模式，后续我会重点维护和优化。社区版目前还可以使用，不过后续不会再维护。
 
-<img src="https://cdn.wwang.de/r/2022/0709/bob-category.jpg" alt="Bob 版本区分" width=800>
+<img src="https://cdn.ripperhe.com/oss/master/2022/0709/bob-category.jpg" alt="Bob 版本区分" width=800>
 
 ## 商店版官网
 

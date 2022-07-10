@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://gh.wwang.de/ripperhe/oss/master/2019/1222/bob-logo.png" width=240 />
+  <img src="https://cdn.ripperhe.com/oss/master/2019/1222/bob-logo.png" width=240 />
 </p>
 <p align="center">
 	<a href="https://bobtranslate.com"><img src="https://img.shields.io/badge/%E5%AE%98%E6%96%B9%E7%BD%91%E7%AB%99-bobtranslate.com-brightgreen?logo=Safari" alt="Website" /></a>
@@ -39,7 +39,7 @@ OCR 功能：
 
 Bob 1.0.0 版本开始，正式发布到 Mac App Store，从 App Store 安装即可。
 
-[![Download on the Mac App Store](https://cdn.wwang.de/r/2022/0626/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/cn/app/id1630034110#?platform=mac)
+[![Download on the Mac App Store](https://cdn.ripperhe.com/oss/master/2022/0626/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/cn/app/id1630034110#?platform=mac)
 
 如果您是 Bob 1.0.0 以下版本的老用户（不包括 1.0.0），请查看 [这篇文档](https://bobtranslate.com/blog/2022-07-03-v1-coming.html)。
 
@@ -49,16 +49,16 @@ Bob 1.0.0 版本开始，正式发布到 Mac App Store，从 App Store 安装即
 
 Bob 是一个菜单栏软件，启动之后，菜单栏会出现一个图标，点击菜单选项即可触发相应的功能，如下所示：
 
-<img src="https://cdn.wwang.de/r/2022/0627/status_item.jpg" alt="statesitem.jpg" width=548>
+<img src="https://cdn.ripperhe.com/oss/master/2022/0627/status_item.jpg" alt="statesitem.jpg" width=548>
 
 ### 翻译功能
 
 | 方式 | 描述 | 预览 |
 | :---: | :---: | :---: |
-| 划词翻译 | 选中需要翻译的文本之后，按下划词翻译快捷键即可（默认 `⌥ + D`） | ![划词翻译-句子](https://cdn.wwang.de/r/2022/0508/translate_selection.gif) |
-| 截图翻译 | 按下截图翻译快捷键（默认 `⌥ + S`），截取需要翻译的区域 | ![截图翻译-句子](https://cdn.wwang.de/r/2022/0508/translate_snip.gif) |
-| 输入翻译| 按下输入翻译快捷键（默认 `⌥ + A`），输入需要翻译的文本，`Enter` 键翻译 | ![输入翻译-单词](https://cdn.wwang.de/r/2022/0508/translate_input.gif) |
-| PopClip 调用 | 选中需要翻译的文本之后，点击 [PopClip](https://pilotmoon.com/popclip) 插件图标即可，详情见 [PopClip 调用](https://bobtranslate.com/guide/integration/popclip.html) | ![插件翻译-句子](https://cdn.wwang.de/r/2022/0508/translate_popclip.gif) |
+| 划词翻译 | 选中需要翻译的文本之后，按下划词翻译快捷键即可（默认 `⌥ + D`） | ![划词翻译-句子](https://cdn.ripperhe.com/oss/master/2022/0508/translate_selection.gif) |
+| 截图翻译 | 按下截图翻译快捷键（默认 `⌥ + S`），截取需要翻译的区域 | ![截图翻译-句子](https://cdn.ripperhe.com/oss/master/2022/0508/translate_snip.gif) |
+| 输入翻译| 按下输入翻译快捷键（默认 `⌥ + A`），输入需要翻译的文本，`Enter` 键翻译 | ![输入翻译-单词](https://cdn.ripperhe.com/oss/master/2022/0508/translate_input.gif) |
+| PopClip 调用 | 选中需要翻译的文本之后，点击 [PopClip](https://pilotmoon.com/popclip) 插件图标即可，详情见 [PopClip 调用](https://bobtranslate.com/guide/integration/popclip.html) | ![插件翻译-句子](https://cdn.ripperhe.com/oss/master/2022/0508/translate_popclip.gif) |
 
 ### OCR 功能
 
@@ -68,7 +68,7 @@ Bob 是一个菜单栏软件，启动之后，菜单栏会出现一个图标，�
 * 选中屏幕上的对应的位置
 * 松手即可开始识别
 
-<img src="https://gh.wwang.de/ripperhe/oss/master/2022/0507/snip_ocr.gif" alt="截图 OCR" width=660 />
+<img src="https://cdn.ripperhe.com/oss/master/2022/0507/snip_ocr.gif" alt="截图 OCR" width=660 />
 
 **静默截图 OCR**
 
@@ -84,7 +84,7 @@ Bob 是一个菜单栏软件，启动之后，菜单栏会出现一个图标，�
 
 在弹出的访达窗口中选中对应的图片文件（可以一次性选中多张），点击右下角「开始识别」即可。
 
-<img src="https://gh.wwang.de/ripperhe/oss/master/2022/0507/file_ocr.jpg" alt="访达选图 OCR" width=600 />
+<img src="https://cdn.ripperhe.com/oss/master/2022/0507/file_ocr.jpg" alt="访达选图 OCR" width=600 />
 
 ## 感谢
 
