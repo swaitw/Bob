@@ -22,4 +22,4 @@ Bob 商店版官网地址为 <https://bobtranslate.com>
 
 Bob 社区版官网地址为 <https://v0.bobtranslate.com>
 
-如果您是通过 Bob 社区版 App 跳转到当前页面，说明您的 Bob 社区版 App 不是最新版本。请将 Bob 社区版 App 升级到最新版本，**升级之后 App 内的所有链接都会跳转到 Bob 社区版新的官网地址**。
+如果您是通过 Bob 社区版 App 跳转到当前页面，说明您的 Bob 社区版 App 不是最新版本。请将 Bob 社区版 App 升级到社区版最新版本，升级之后 App 内的所有链接都会跳转到 Bob 社区版新的官网地址。
