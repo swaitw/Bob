@@ -16,7 +16,7 @@ Bob 1.0.0 以下的版本（不包括 1.0.0，例如 0.10.x 等版本）发布�
 
 Bob 商店版官网地址为 <https://bobtranslate.com>
 
-!> **Bob 商店版目前首发限时 6 折优惠，详情请查看 [这篇文章](https://bobtranslate.com/blog/2022-07-03-v1-coming.html)。**
+!> **Bob 商店版目前首发限时 6 折优惠，2022 年 7 月 18 日恢复原价，详情请查看 [这篇文章](https://bobtranslate.com/blog/2022-07-03-v1-coming.html)。**
 
 ## 社区版官网
 
