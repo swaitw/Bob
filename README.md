@@ -10,6 +10,8 @@
 
 Bob 是一款 macOS 平台 **翻译** 和 **OCR** 软件。
 
+> **Bob 商店版目前首发限时 6 折优惠，2022 年 7 月 18 日恢复原价，详情请查看 [这篇文章](https://bobtranslate.com/blog/2022-07-03-v1-coming.html)。**
+
 翻译功能：
 
 - [x] 划词翻译
