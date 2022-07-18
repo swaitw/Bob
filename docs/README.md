@@ -2,6 +2,8 @@
 
 Bob 官网之前通过 Gitee/GitHub Pages 进行部署，但是经常会有用户无法访问，现已将官网部署到我自己的服务器，域名地址也有所变更。
 
+!> **Bob 已发布到 Mac App Store，详情请查看 [这篇文章](https://bobtranslate.com/blog/2022-07-03-v1-coming.html)。**
+
 ## 版本区分
 
 Bob 1.0.0 版本开始，正式发布到 Mac App Store，这里简称商店版。
@@ -15,8 +17,6 @@ Bob 1.0.0 以下的版本（不包括 1.0.0，例如 0.10.x 等版本）发布�
 ## 商店版官网
 
 Bob 商店版官网地址为 <https://bobtranslate.com>
-
-!> **Bob 商店版目前首发限时 6 折优惠，2022 年 7 月 18 日恢复原价，详情请查看 [这篇文章](https://bobtranslate.com/blog/2022-07-03-v1-coming.html)。**
 
 ## 社区版官网
 
