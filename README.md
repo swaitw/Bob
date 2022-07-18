@@ -10,8 +10,6 @@
 
 Bob 是一款 macOS 平台 **翻译** 和 **OCR** 软件。
 
-> **Bob 商店版目前首发限时 6 折优惠，2022 年 7 月 18 日恢复原价，详情请查看 [这篇文章](https://bobtranslate.com/blog/2022-07-03-v1-coming.html)。**
-
 翻译功能：
 
 - [x] 划词翻译
@@ -37,13 +35,11 @@ OCR 功能：
 
 ## 安装
 
-系统要求 **macOS 10.13** 以上。
-
-Bob 1.0.0 版本开始，正式发布到 Mac App Store，从 App Store 安装即可。
+系统要求 **macOS 10.13** 以上，从 Mac App Store 安装。
 
 [![Download on the Mac App Store](https://cdn.ripperhe.com/oss/master/2022/0626/Download_on_the_Mac_App_Store_Badge_US-UK_RGB_blk_092917.svg)](https://apps.apple.com/cn/app/id1630034110#?platform=mac)
 
-如果您是 Bob 1.0.0 以下版本的老用户（不包括 1.0.0），请查看 [这篇文档](https://bobtranslate.com/blog/2022-07-03-v1-coming.html)。
+如果是社区版老用户，请查看 [这篇文档](https://bobtranslate.com/blog/2022-07-03-v1-coming.html)。
 
 ## 使用方法
 
