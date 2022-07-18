@@ -12,9 +12,7 @@
   <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <!-- Theme 主题设置 [vue.css] [buble.css] [dark.css] [pure.css] -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
-  <!-- Plugin gitalk -->
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"> -->
+  <link rel="stylesheet" href="_src/docsify/vue.css">
 </head>
 
 <body>
@@ -25,34 +23,30 @@
       // ************************* Configuration *************************
       // https://docsify.js.org/#/zh-cn/configuration
       // --> 首页 「README.md」
-      homepage: 'https://cdn.jsdelivr.net/gh/ripperhe/Bob@master/README.md',
+      homepage: 'README.md',
       // --> 封面 「_coverpage.md」
       coverpage: false,
       // --> 侧边栏 [_sidebar.md]
-      loadSidebar: true,
+      loadSidebar: false,
       // 说实话，没搞懂
       maxLevel: 4,
       // 设置侧边栏中，当前文章的最大目录层级；不设置，则不会显示当前文章目录
       subMaxLevel: 2,
       // --> 导航栏 [_navbar.md]
-      loadNavbar: true,
+      loadNavbar: false,
       // 小屏设备下合并导航栏到侧边栏
       mergeNavbar: true,
       // --> 404页面 「_404.md」
-      notFoundPage: true,
+      notFoundPage: "README.md",
+      // 隐藏侧边栏
+      hideSidebar: true,
 
       // 网址logo
       // logo: '/_media/icon.svg',
       // 文档标题，显示在侧边栏顶部
-      name: 'Bob 0.7.0',
-      // 侧边栏点击链接
-      // nameLink: {
-      //   '/': '/',
-      //   '/service/': '/service/',
-      //   '/plugin/': '/plugin/',
-      // },
+      name: 'Bob',
       // 仓库地址（设置之后，会在页面右上角渲染一个 GitHub Corner 挂件）
-      repo: 'ripperhe/Bob',
+      // repo: 'ripperhe/Bob',
       // 页面切换之后，自动跳转到顶部
       auto2top: true,
       // 格式化
@@ -69,47 +63,37 @@
         // Edit On Github
         function (hook, vm) {
           hook.beforeEach(function (html) {
-            var url = 'https://github.com/ripperhe/Bob/blob/master/docs/' + vm.route.file
-            if (vm.route.file === 'https://cdn.jsdelivr.net/gh/ripperhe/Bob@master/README.md') {
-              url = 'https://github.com/ripperhe/Bob/blob/master/README.md'
-            }
-            var editHtml = '[:memo: 在 Github 上编辑](' + url + ')'
+            var chatHtml = '[:rocket: 点击此处联系我](https://bobtranslate.com/general/contact.html)'
             return html
               + '\n\n----\n\n'
-              + editHtml
+              + chatHtml
           })
         },
       ]
     }
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="_src/docsify/docsify.min.js"></script>
   <!-- ************************* Plugins ************************* -->
   <!-- Plugins：全文搜索 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.js"></script>
+  <script src="_src/docsify/search.js"></script>
   <!-- Plugins：图片缩放 - Zoom image -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.js"></script>
+  <script src="_src/docsify/zoom-image.js"></script>
   <!-- 点击代码块右上角复制代码 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
-  <!-- Plugins：gitalk -->
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-  <script>
-      const gitalk = new Gitalk({
-          clientID: '6dcf63ab4e93d33d33fa',
-          clientSecret: 'aa430158c8d3fc3c2c15c94063854d6513bda0e6',
-          repo: 'docsify-template',
-          owner: 'ripperhe',
-          admin: ['ripperhe'],
-          // id: '{{ page.url | truncate: 50, '' }}',
-          distractionFreeMode: false // Facebook-like distraction free mode
-      })
-      gitalk.render('gitalk-container')
-  </script> -->
+  <script src="_src/docsify/docsify-copy-code.js"></script>
   <!-- Plugins：代码高亮 prism https://github.com/PrismJS/prism -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-javascript.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-applescript.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+  <script src="_src/prismjs/prism-javascript.min.js"></script>
+  <script src="_src/prismjs/prism-json.min.js"></script>
+  <script src="_src/prismjs/prism-applescript.min.js"></script>
+  <script src="_src/prismjs/prism-bash.min.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4EK44EJ8FX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-4EK44EJ8FX');
+  </script>
 </body>
 
 </html>
